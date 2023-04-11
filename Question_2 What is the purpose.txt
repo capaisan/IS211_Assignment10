@@ -1,0 +1,3 @@
+The purpose of the person_pet table is to link the tables "person" and "pet" together. Instead of having foreign keys
+in the pet and person table, there is a third table that carries the foreign key of "person_id" and "pet_id".
+It is most useful when creating many-to-many relationships in a database.
